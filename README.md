@@ -1,6 +1,6 @@
-# Monkey Ball Community Hacking Notes
+# Super Monkey Ball 2 Community Hacking Notes
 
-A place for everybody's freeform notes relating to hacking/reversing/modding Super Monkey Ball 1 and 2's code, file formats, etc.
+A collection of miscellaneous SMB2 reverse engineering notes from a few community members.
 
 This is intended to complement the community Ghidra decompilation, contact ComplexPlane for more information.
 
