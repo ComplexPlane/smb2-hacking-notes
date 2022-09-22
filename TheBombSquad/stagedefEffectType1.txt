@@ -1,0 +1,10 @@
+Effect type 1, length: 0x14
+Sample effect is silhoutte from a diner BG object in the SMBDX version of Conveyers
+    4208E80C - 4 byte float?    - seems to change every keyframe
+    C0940013 - 4 byte float?    - seems to change every keyframe
+    C2A73500 - 4 byte float?    - seems to change every keyframe
+    0000     - 2 byte short?    - have not seen non-null values
+    E03A     - 2 byte short?    - seems to change for some keyframes
+    0000     - 2 byte short?    - have not seen non-null values
+    41       - 1 byte           - appears to increment by 1, or otherwise changes value for each new keyframe.
+    00       - 1 byte           - have not seen non-null values

@@ -1,0 +1,154 @@
+{
+    "watchList": [
+        {
+            "address": "803E4D38",
+            "baseIndex": 0,
+            "label": "level tilt interpolation rate",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803E4D58",
+            "baseIndex": 0,
+            "label": "level tilt interp 2",
+            "typeIndex": 4,
+            "unsigned": false
+        },
+        {
+            "address": "803E53DC",
+            "baseIndex": 0,
+            "label": "bg animation timescale",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803E4D10",
+            "baseIndex": 0,
+            "label": "goal post something",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803E4DD8",
+            "baseIndex": 0,
+            "label": "stage animrate post dropin (fps/val)",
+            "typeIndex": 4,
+            "unsigned": false
+        },
+        {
+            "address": "803E4DC8",
+            "baseIndex": 0,
+            "label": "stage animrate b4 dropin (fps / val)",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803E4DC4",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "804724BC",
+            "baseIndex": 0,
+            "label": "Accel",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803E487C",
+            "baseIndex": 0,
+            "label": "Friction",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803E4D3C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803E4DE0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803E4DE0",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "803E5354",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "803E5440",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "803E5A38",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "803E60B0",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "803E6470",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80442800",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "804438DC",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80443C74",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        }
+    ]
+}

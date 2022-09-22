@@ -1,0 +1,156 @@
+{
+    "watchList": [
+        {
+            "address": "80B4AC64",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4AD04",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4ADA4",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4AE44",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4AEE4",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4AF84",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B024",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B0C4",
+            "baseIndex": 4,
+            "label": "sadf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B164",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B204",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B2A4",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B344",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B3E4",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B484",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B524",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B5C4",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B664",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B704",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        },
+        {
+            "address": "80B4B7A4",
+            "baseIndex": 4,
+            "label": "asdf",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": true
+        }
+    ]
+}

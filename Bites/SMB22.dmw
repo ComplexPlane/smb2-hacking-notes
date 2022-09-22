@@ -1,0 +1,350 @@
+{
+    "watchList": [
+        {
+            "address": "80553974",
+            "baseIndex": 0,
+            "label": "timer",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8055397A",
+            "baseIndex": 0,
+            "label": "timer 2",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8055386B",
+            "baseIndex": 0,
+            "label": "hmm",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "805BC9A0",
+                    "baseIndex": 0,
+                    "label": "physics struct header",
+                    "length": 4,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BC9BC",
+                            "baseIndex": 0,
+                            "label": "x speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9C0",
+                            "baseIndex": 0,
+                            "label": "y speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9C4",
+                            "baseIndex": 0,
+                            "label": "z speed",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "speed"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BC9A4",
+                            "baseIndex": 0,
+                            "label": "x pos",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9A8",
+                            "baseIndex": 0,
+                            "label": "y pos",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9AC",
+                            "baseIndex": 0,
+                            "label": "z pos",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "pos"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BC9C8",
+                            "baseIndex": 0,
+                            "label": "xrot",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9CA",
+                            "baseIndex": 0,
+                            "label": "yrot",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9CC",
+                            "baseIndex": 0,
+                            "label": "zrot",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "ball angs"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BCA22",
+                            "baseIndex": 0,
+                            "label": "No label",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9DC",
+                            "baseIndex": 0,
+                            "label": "ballPosx",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9EC",
+                            "baseIndex": 0,
+                            "label": "ballPosy",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9FC",
+                            "baseIndex": 0,
+                            "label": "ballPosz",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "ball visual pos"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BC9B0",
+                            "baseIndex": 0,
+                            "label": "physStruct1",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9B4",
+                            "baseIndex": 0,
+                            "label": "physStruct2",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9B8",
+                            "baseIndex": 0,
+                            "label": "physStruct3",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9D0",
+                            "baseIndex": 0,
+                            "label": "physStruct4",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9D4",
+                            "baseIndex": 0,
+                            "label": "physStruct5",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9D8",
+                            "baseIndex": 0,
+                            "label": "physStruct6",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9E0",
+                            "baseIndex": 0,
+                            "label": "physStruct7",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9E4",
+                            "baseIndex": 0,
+                            "label": "physStruct8",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9E8",
+                            "baseIndex": 0,
+                            "label": "physStruct9",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9F0",
+                            "baseIndex": 0,
+                            "label": "physStruct10",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9F4",
+                            "baseIndex": 0,
+                            "label": "physStruct11",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9F8",
+                            "baseIndex": 0,
+                            "label": "physStruct12",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "unknown"
+                }
+            ],
+            "groupName": "physStruct"
+        },
+        {
+            "address": "804724BC",
+            "baseIndex": 0,
+            "label": "Accel",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804724C0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804724C4",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804724C8",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804724CC",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804724B8",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "80082540",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "800832D0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "80199880",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "80199AC0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "803DDBC8",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "803DE298",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "803E4640",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "803E46B8",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "803E46C0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "803E487C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        }
+    ]
+}

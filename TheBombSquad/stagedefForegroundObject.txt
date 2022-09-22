@@ -1,0 +1,18 @@
+Foreground Object, length 0x38
+Sample foreground object is from STAGE801 - Plain, the ladybug with X scaling on the bug modified
+    0000001F - 4 byte integer    - unknown number, most seem to be 0x1F, I've seen 0x07 and 0x0F as well
+    00021059 - 4 byte integer    - offset to model name
+    00000000 - 4 byte unknown    - unknown, have not seen non-null value
+    C119E148 - 4 byte float      - x position
+    3F477DE9 - 4 byte float      - y position
+    4080FF97 - 4 byte float      - z position 
+    025D     - 2 byte short      - x rotation (standard 0 to FFFF rotation found in stagedef)
+    0AD6     - 2 byte short      - y rotation ''
+    045A     - 2 byte short      - z rotation ''
+    0000     - 2 byte short      - unknown, have not seen non-null value
+    40F00000 - 4 byte float      - x scaling
+    3F800000 - 4 byte float      - y scaling
+    3F800000 - 4 byte float      - z scaling
+    00000000 - 4 byte unknown    - unknown, have not seen non-null value
+    00010CA0 - 4 byte integer    - offset to animation header
+    00000000 - 4 byte unknown    - unknown, have not seen non-null value

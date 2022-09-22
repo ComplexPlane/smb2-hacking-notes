@@ -1,0 +1,67 @@
+{
+    "watchList": [
+        {
+            "address": "8054E058",
+            "baseIndex": 0,
+            "label": "camx",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8054E05C",
+            "baseIndex": 0,
+            "label": "camy",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8054E060",
+            "baseIndex": 0,
+            "label": "camz",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8054E064",
+            "baseIndex": 0,
+            "label": "intx",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8054E068",
+            "baseIndex": 0,
+            "label": "inty",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8054E06C",
+            "baseIndex": 0,
+            "label": "intz",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8054E070",
+            "baseIndex": 0,
+            "label": "anglex",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8054E072",
+            "baseIndex": 0,
+            "label": "angley",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "8054E074",
+            "baseIndex": 0,
+            "label": "anglez",
+            "typeIndex": 3,
+            "unsigned": false
+        }
+    ]
+}

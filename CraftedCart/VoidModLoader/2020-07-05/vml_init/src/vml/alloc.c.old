@@ -1,0 +1,262 @@
+#include "vml/alloc.h"
+#include "vml/log.h"
+#include <string.h>
+
+typedef struct VmlAllocFreeEntry {
+    void *ptr;
+    u32 size;
+} VmlAllocFreeEntry;
+
+#define FREE_LIST_SIZE 256
+
+// TODO: Shove this over to the .bss when cube_code supports it
+static VmlAllocFreeEntry vml_alloc_free_list[FREE_LIST_SIZE] = {
+    (VmlAllocFreeEntry) {
+        .ptr = (void*) 0xDEADBEEF,
+        .size = 0,
+    },
+};
+static u32 vml_alloc_free_list_used = 0;
+
+void vml_alloc_init(void *start, u32 size) {
+    vml_alloc_free_list[0].ptr = start;
+    vml_alloc_free_list[0].size = size;
+
+    vml_alloc_free_list_used = 1;
+}
+
+void vml_alloc_print_free_list() {
+    vml_info("Free list:");
+
+    for (u32 i = 0; i < vml_alloc_free_list_used; i++) {
+        VmlAllocFreeEntry *entry;
+        entry = &vml_alloc_free_list[i];
+
+        vml_info("> %p (%lu)", entry->ptr, entry->size);
+    }
+}
+
+static VmlAllocFreeEntry* find_free_entry(u32 size) {
+    VmlAllocFreeEntry *best_entry = NULL;
+
+    // Look for the smallest free block, to try and reduce fragmentation
+    for (u32 i = 0; i < vml_alloc_free_list_used; i++) {
+        VmlAllocFreeEntry *entry;
+        entry = &vml_alloc_free_list[i];
+
+        if ((best_entry == NULL && entry->size >= size) ||
+            (best_entry != NULL && entry->size >= size && entry->size < best_entry->size)) {
+          best_entry = entry;
+        }
+    }
+
+    return best_entry;
+}
+
+static void try_merge_free_blocks(u32 idx) {
+    VmlAllocFreeEntry *this_entry = &vml_alloc_free_list[idx];
+    void *this_entry_end = ((u8*) this_entry->ptr) + this_entry->size;
+
+    for (u32 i = 0; i < vml_alloc_free_list_used; i++) {
+        if (i == idx) continue;
+
+        VmlAllocFreeEntry *other_entry = &vml_alloc_free_list[i];
+        void *other_entry_end = ((u8*) other_entry->ptr) + other_entry->size;
+
+        if (this_entry_end == other_entry->ptr) {
+            // Merge!
+            vml_warn("nyaa");
+            this_entry->size += other_entry->size;
+
+            // Remove the last entry
+            vml_alloc_free_list_used--;
+
+            // And swap other_entry with the former last entry if need be
+            if (i != vml_alloc_free_list_used) {
+                VmlAllocFreeEntry *last_entry = &vml_alloc_free_list[vml_alloc_free_list_used];
+                other_entry->ptr = last_entry->ptr;
+                other_entry->size = last_entry->size;
+            }
+
+            // Merge recursively if we can
+            try_merge_free_blocks(i);
+
+            return;
+        } else if (this_entry->ptr == other_entry_end) {
+            vml_warn("waaaaah");
+
+            // Merge!
+            this_entry->ptr = (u8*) this_entry->ptr - other_entry->size;
+            this_entry->size += other_entry->size;
+
+            // Remove the last entry
+            vml_alloc_free_list_used--;
+
+            // And swap with the former last entry if need be
+            if (i != vml_alloc_free_list_used) {
+                VmlAllocFreeEntry *last_entry = &vml_alloc_free_list[vml_alloc_free_list_used];
+                other_entry->ptr = last_entry->ptr;
+                other_entry->size = last_entry->size;
+            }
+
+            // Merge recursively if we can
+            try_merge_free_blocks(i);
+
+            return;
+        }
+    }
+}
+
+void* vml_malloc(u32 size) {
+    size += 4;
+
+    VmlAllocFreeEntry *entry = find_free_entry(size);
+    if (entry == NULL) {
+        vml_error("Panicking in vml_malloc - printing free list...");
+        vml_alloc_print_free_list();
+        vml_fatal("Could not vml_malloc with size %u", size - 4);
+    }
+
+    void *base_ptr = entry->ptr;
+    u32 *size_ptr = base_ptr;
+    void *user_ptr = (u8*) base_ptr + 4;
+
+    *size_ptr = size;
+
+    if (entry->size == size) {
+        // Get rid of the free block
+        vml_alloc_free_list_used--;
+
+        VmlAllocFreeEntry *last_entry = &vml_alloc_free_list[vml_alloc_free_list_used];
+        if (entry != last_entry) {
+            entry->ptr = last_entry->ptr;
+            entry->size = last_entry->size;
+        }
+    } else {
+        // Shrink the free block
+        entry->ptr = (u8 *)entry->ptr + size;
+        entry->size -= size;
+    }
+
+    return user_ptr;
+}
+
+void* vml_realloc(void *ptr, u32 new_size) {
+    void *base_ptr = (u8*) ptr - 4;
+    u32 *size_ptr = base_ptr;
+    u32 size = *size_ptr;
+    void* ptr_end = ((u8*) ptr) + size;
+
+    *size_ptr = new_size;
+
+    if (new_size == size) {
+        // Do nothing
+        return ptr;
+    } else if (new_size < size) {
+        // Shrink size
+        // See if there is any free block afterwards we can expand backwards
+        for (u32 i = 0; i < vml_alloc_free_list_used; i++) {
+            VmlAllocFreeEntry *entry = &vml_alloc_free_list[i];
+
+            if (entry->ptr == ptr_end) {
+                // Can do!
+                void *new_ptr_end = ((u8*) ptr) + new_size;
+                entry->ptr = new_ptr_end;
+                entry->size += (u32) new_ptr_end - (u32) ptr_end;
+
+                return ptr;
+            }
+        }
+
+        // We can't expand a block - make a new one
+        VmlAllocFreeEntry *entry = &vml_alloc_free_list[vml_alloc_free_list_used];
+        entry->ptr = base_ptr;
+        entry->size = size;
+        vml_alloc_free_list_used++;
+        return ptr;
+    } else {
+        // Expand size
+        // TODO: This isn't working so well
+        /* u32 size_diff = new_size - size; */
+
+        // See if there is any free block afterwards we can shrink
+        /* for (u32 i = 0; i < vml_alloc_free_list_used; i++) { */
+        /*     VmlAllocFreeEntry *entry = &vml_alloc_free_list[i]; */
+
+        /*     if (entry->ptr == ptr_end) { */
+        /*         // Found a free block */
+        /*         if (entry->size == size_diff) { */
+        /*             // Swap this free block with the last one, and remove it */
+        /*             vml_alloc_free_list_used--; */
+        /*             if (i != vml_alloc_free_list_used) { */
+        /*                 VmlAllocFreeEntry *last_entry = &vml_alloc_free_list[vml_alloc_free_list_used]; */
+        /*                 entry->ptr = last_entry->ptr; */
+        /*                 entry->size = last_entry->size; */
+        /*             } */
+
+        /*             return ptr; */
+        /*         } else if (entry->size > size_diff) { */
+        /*             entry->ptr = (u8*) entry->ptr + size_diff; */
+        /*             entry->size -= size_diff; */
+        /*             return ptr; */
+        /*         } else { */
+        /*             // Can't expand this mem region - we need to alloc a new region and do a memcpy */
+        /*             break; */
+        /*         } */
+        /*     } */
+        /* } */
+
+        // We couldn't expand any free block - alloc a new region and copy memory over
+        void *new_ptr = vml_malloc(new_size);
+        memcpy(new_ptr, ptr, size);
+        vml_free(ptr);
+
+        return new_ptr;
+    }
+}
+
+void vml_free(void *ptr) {
+    void *base_ptr = (u8*) ptr - 4;
+    u32 *size_ptr = base_ptr;
+    u32 size = *size_ptr;
+    /* void *ptr_end = ((u8*) base_ptr) + size; */
+
+    /* // See if we can grow an existing block */
+    /* // TODO: This isn't working so well */
+    /* for (u32 i = 0; i < vml_alloc_free_list_used; i++) { */
+    /*     VmlAllocFreeEntry *entry = &vml_alloc_free_list[i]; */
+    /*     void *entry_end = ((u8*) entry->ptr) + entry->size; */
+
+    /*     if (entry_end == base_ptr) { */
+    /*         // Grow forwards */
+    /*         entry->size += size; */
+
+    /*         // Merge recursively if we can */
+    /*         try_merge_free_blocks(i); */
+
+    /*         return; */
+    /*     } else if (((u8*) entry->ptr) + entry->size == ptr_end) { */
+    /*         // Grow backwards */
+    /*         entry->ptr = base_ptr; */
+    /*         entry->size += size; */
+
+    /*         // Merge recursively if we can */
+    /*         try_merge_free_blocks(i); */
+
+    /*         return; */
+    /*     } */
+    /* } */
+
+    if (vml_alloc_free_list_used >= FREE_LIST_SIZE) {
+        vml_fatal("Could not vml_free pointer %p - the free list has been exhausted", ptr);
+    }
+
+    // We can't grow an existing block - create a new one
+    VmlAllocFreeEntry *entry = &vml_alloc_free_list[vml_alloc_free_list_used];
+    entry->ptr = base_ptr;
+    entry->size = size;
+    vml_alloc_free_list_used++;
+
+    // Merge recursively if we can
+    try_merge_free_blocks(vml_alloc_free_list_used - 1);
+}

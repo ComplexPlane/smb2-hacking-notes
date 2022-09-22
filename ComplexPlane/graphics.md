@@ -1,0 +1,1 @@
+Gamecube native render resolution: 640×548

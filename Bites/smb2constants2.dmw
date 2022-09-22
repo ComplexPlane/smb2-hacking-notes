@@ -1,0 +1,102 @@
+{
+    "watchList": [
+        {
+            "address": "803DE0F0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE0F8",
+            "baseIndex": 391,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "803DE0FC",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE100",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE104",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE10C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE110",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE114",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE118",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE11C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE120",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE13C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE140",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE144",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        }
+    ]
+}

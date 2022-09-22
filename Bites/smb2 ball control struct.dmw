@@ -1,0 +1,161 @@
+{
+    "watchList": [
+        {
+            "address": "805BD7E0",
+            "baseIndex": 0,
+            "label": "ball control struct start",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805BD80C",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "805BD810",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD814",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD818",
+            "baseIndex": 0,
+            "label": "Z tilt",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "805BD81A",
+            "baseIndex": 0,
+            "label": "X tilt",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "805BD820",
+            "baseIndex": 0,
+            "label": "Ball State",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805BD824",
+            "baseIndex": 0,
+            "label": "level tilt max degrees",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "805BD828",
+            "baseIndex": 0,
+            "label": "something regarding x speed",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD82C",
+            "baseIndex": 0,
+            "label": "something regarding y speed",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD830",
+            "baseIndex": 0,
+            "label": "something regarding z speed",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD834",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD838",
+            "baseIndex": 0,
+            "label": "X tilt something",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD83C",
+            "baseIndex": 0,
+            "label": "something with tilt interpolation?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD840",
+            "baseIndex": 0,
+            "label": "z tilt something",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD868",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD908",
+            "baseIndex": 0,
+            "label": "physics object x tilt value",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD90C",
+            "baseIndex": 0,
+            "label": "physics object y tilt value",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD910",
+            "baseIndex": 0,
+            "label": "physics object z tilt value",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BD914",
+            "baseIndex": 0,
+            "label": "something about minimap angle",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "805BD918",
+            "baseIndex": 0,
+            "label": "level timer BUT WHEN IT'S FROZEN AT 0 ALL IMPACT NOISES ARE SMB1 STYLE???",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "805BD91C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        }
+    ]
+}

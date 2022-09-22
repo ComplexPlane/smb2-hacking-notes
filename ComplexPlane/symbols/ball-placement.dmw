@@ -1,0 +1,81 @@
+{
+    "watchList": [
+        {
+            "address": "805BC9A0",
+            "baseIndex": 0,
+            "label": "Is Active?",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805BC9BC",
+            "baseIndex": 0,
+            "label": "X Velocity",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BC9C0",
+            "baseIndex": 0,
+            "label": "Y Velocity",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BC9C4",
+            "baseIndex": 0,
+            "label": "Z Velocity",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BC9A3",
+            "baseIndex": 0,
+            "label": "Unknown Physics State",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805BC9A4",
+            "baseIndex": 0,
+            "label": "X Position",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BC9A8",
+            "baseIndex": 0,
+            "label": "Y Position",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BC9AC",
+            "baseIndex": 0,
+            "label": "Z Position",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BC9B0",
+            "baseIndex": 0,
+            "label": "Last X Position",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BC9B4",
+            "baseIndex": 0,
+            "label": "Last Y Position",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BC9B8",
+            "baseIndex": 0,
+            "label": "Last Z Position",
+            "typeIndex": 3,
+            "unsigned": false
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "watchList": [
+        {
+            "address": "80146600",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 2,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "80145120",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 2,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "801373A0",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 2,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "8054DE50",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        }
+    ]
+}

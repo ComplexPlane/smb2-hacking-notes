@@ -1,0 +1,237 @@
+{
+    "watchList": [
+        {
+            "groupEntries": [
+                {
+                    "address": "80145124",
+                    "baseIndex": 1,
+                    "label": "c stick x",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80145125",
+                    "baseIndex": 0,
+                    "label": "c stick y",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "c stick"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8054E058",
+                            "baseIndex": 0,
+                            "label": "pos x",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8054E05C",
+                            "baseIndex": 0,
+                            "label": "pos y",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8054E060",
+                            "baseIndex": 0,
+                            "label": "pos z",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Position"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8054E064",
+                            "baseIndex": 0,
+                            "label": "int x",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8054E068",
+                            "baseIndex": 0,
+                            "label": "int y",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8054E06C",
+                            "baseIndex": 0,
+                            "label": "int z",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Intr"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8054E070",
+                            "baseIndex": 0,
+                            "label": "ang x",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8054E072",
+                            "baseIndex": 0,
+                            "label": "ang y",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8054E074",
+                            "baseIndex": 0,
+                            "label": "ang z",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Angle"
+                },
+                {
+                    "address": "8054E076",
+                    "baseIndex": 0,
+                    "label": "mode",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E077",
+                    "baseIndex": 0,
+                    "label": "submode",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E078",
+                    "baseIndex": 0,
+                    "label": "some_float",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E07C",
+                    "baseIndex": 0,
+                    "label": "some_bitflag",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E07E",
+                    "baseIndex": 0,
+                    "label": "some_half",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E080",
+                    "baseIndex": 0,
+                    "label": "some_word",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E084",
+                    "baseIndex": 0,
+                    "label": "some_word2",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E088",
+                    "baseIndex": 0,
+                    "label": "pers",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E08A",
+                    "baseIndex": 0,
+                    "label": "next_fov",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E08C",
+                    "baseIndex": 0,
+                    "label": "aspect",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E090",
+                    "baseIndex": 0,
+                    "label": "perstan",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E094",
+                    "baseIndex": 0,
+                    "label": "1",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E098",
+                    "baseIndex": 0,
+                    "label": "start_draw_distance",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8054E09C",
+                    "baseIndex": 0,
+                    "label": "end_draw_distance",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8054E0A0",
+                            "baseIndex": 0,
+                            "label": "viewport x",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8054E0A4",
+                            "baseIndex": 0,
+                            "label": "viewport y",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8054E0A8",
+                            "baseIndex": 0,
+                            "label": "viewport width",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8054E0AC",
+                            "baseIndex": 0,
+                            "label": "viewport height",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Viewport"
+                }
+            ],
+            "groupName": "Camera Struct"
+        }
+    ]
+}

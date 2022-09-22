@@ -1,0 +1,57 @@
+{
+    "watchList": [
+        {
+            "address": "803DDEA8",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 8,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "803DDEC0",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 8,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "803DDED0",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "8054E070",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 6,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "8054E072",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8054E074",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 1,
+            "unsigned": false
+        },
+        {
+            "address": "8054E076",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 0,
+            "unsigned": false
+        }
+    ]
+}

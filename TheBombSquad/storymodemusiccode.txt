@@ -1,0 +1,33 @@
+addis r3, r2, +0x3a		- loads the top half of the main_mode address
+ori r3, r3, 0xdc34		- loads the bottom ahlf of the main_mode address
+lwz r3, 0(r3)			- loads the value of main_mode
+cmpwi r3, 0x30			- compares against <0x30 (not on a stage)
+blt nomatch
+cmpwi r3, 0x5b			- compares against 0x5b (retry mode in story mode)
+beq match
+cmpwi r3, 0x3b			- compares against >0x3b (not on a stage)
+bgt nomatch
+match:
+addis r3, r2, +0x10		- loads the top half of the bgm loading function
+ori r3, r3, 0x5e94		- loads the bottom half of the bgm loading function
+mtlr r3
+li r3, 0x64				- loads parameters for the function
+blrl					- calls function (this cancels out the hurry music
+li r3, 0x1				- loads looping state 1
+b end					- returns to call the function
+nomatch:
+li r3, 0				- loads default looping state
+end:					- returns to call the function
+
+C22A5C34 00000009
+3C62003A 6063DC34
+80630000 2C030030
+41800030 2C03005B
+4182000C 2C03003B
+41810020 3C620010
+60635E94 7C6803A6
+38600064 4E800021
+38600001 48000008
+38600000 00000000
+
+

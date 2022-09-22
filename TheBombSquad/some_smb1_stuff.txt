@@ -1,0 +1,4 @@
+0x802F58C8 - some float that is being checked
+801eef00 - cam x?
+801eef04 - cam y
+801eef08 - cam z:

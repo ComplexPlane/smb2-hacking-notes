@@ -1,0 +1,866 @@
+{
+    "watchList": [
+        {
+            "groupEntries": [
+                {
+                    "address": "805BC9A0",
+                    "baseIndex": 0,
+                    "label": "status",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BC9A1",
+                    "baseIndex": 4,
+                    "label": "unknown",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "805BC9A2",
+                    "baseIndex": 4,
+                    "label": "life counter",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "805BC9A3",
+                    "baseIndex": 4,
+                    "label": "physics state",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BC9A4",
+                            "baseIndex": 0,
+                            "label": "pos x",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9A8",
+                            "baseIndex": 0,
+                            "label": "pos y",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9AC",
+                            "baseIndex": 0,
+                            "label": "pos z",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Position"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BC9B0",
+                            "baseIndex": 0,
+                            "label": "prev pos x",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9B4",
+                            "baseIndex": 0,
+                            "label": "prev pos y",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9B8",
+                            "baseIndex": 0,
+                            "label": "prev pos z",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Previous Position"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BC9BC",
+                            "baseIndex": 0,
+                            "label": "velocity x",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9C0",
+                            "baseIndex": 0,
+                            "label": "velocity y",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9C4",
+                            "baseIndex": 0,
+                            "label": "velocity z",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Velocity"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BC9C8",
+                            "baseIndex": 0,
+                            "label": "some rot x",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9CA",
+                            "baseIndex": 0,
+                            "label": "some rot y",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9CC",
+                            "baseIndex": 4,
+                            "label": "some rot z",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Some Rotation #1"
+                },
+                {
+                    "address": "805BC9CE",
+                    "baseIndex": 0,
+                    "label": "index",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BC9CF",
+                    "baseIndex": 0,
+                    "label": "unknown",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BC9D0",
+                            "baseIndex": 0,
+                            "label": "unkfloat1 (some_rot_4)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9D4",
+                            "baseIndex": 0,
+                            "label": "unkfloat2 (some_rot_5)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9D8",
+                            "baseIndex": 0,
+                            "label": "unkfloat3 (x_angle)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9DC",
+                            "baseIndex": 4,
+                            "label": "unkfloat4 (x_pos_copy)",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "805BC9E0",
+                            "baseIndex": 0,
+                            "label": "unkfloat5 (some_rot_6)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9E4",
+                            "baseIndex": 0,
+                            "label": "unkfloat6 (some_rot_7)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9E8",
+                            "baseIndex": 0,
+                            "label": "unkfloat7 (y_angle)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9EC",
+                            "baseIndex": 0,
+                            "label": "unkfloat8 (y_pos_copy)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9F0",
+                            "baseIndex": 0,
+                            "label": "unkfloat9 (some_rot_8)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9F4",
+                            "baseIndex": 0,
+                            "label": "unkfloat10 (some_rot_9)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9F8",
+                            "baseIndex": 0,
+                            "label": "unkfloat11 (z_angle)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BC9FC",
+                            "baseIndex": 0,
+                            "label": "unkfloat12 (z_pos_copy)",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Odd Rotation Stuff"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BCA00",
+                            "baseIndex": 0,
+                            "label": "unkshort1 (some_rot_10)",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA02",
+                            "baseIndex": 0,
+                            "label": "unkshort2 (some_rot_11)",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA04",
+                            "baseIndex": 0,
+                            "label": "unkshort3 (some_rot_12)",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA06",
+                            "baseIndex": 0,
+                            "label": "unkshort4 (padding2)",
+                            "typeIndex": 1,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Some Rotation #2"
+                },
+                {
+                    "address": "805BCA08",
+                    "baseIndex": 0,
+                    "label": "ball_size",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA0C",
+                    "baseIndex": 0,
+                    "label": "acceleration",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA10",
+                    "baseIndex": 0,
+                    "label": "restitution",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA14",
+                    "baseIndex": 0,
+                    "label": "visual_ball_size",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA18",
+                    "baseIndex": 0,
+                    "label": "banana_count",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA1C",
+                    "baseIndex": 0,
+                    "label": "score",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA20",
+                    "baseIndex": 0,
+                    "label": "level_stopwatch",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA24",
+                    "baseIndex": 0,
+                    "label": "unkword1",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA28",
+                    "baseIndex": 0,
+                    "label": "unkword2",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA2C",
+                    "baseIndex": 4,
+                    "label": "unkword3",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "805BCA30",
+                    "baseIndex": 0,
+                    "label": "unkshort5",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA32",
+                    "baseIndex": 0,
+                    "label": "unkshort6 (monkeydir?)",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA34",
+                    "baseIndex": 0,
+                    "label": "unkword4",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCA38",
+                    "baseIndex": 4,
+                    "label": "g_some_bitfield",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "805BCA3C",
+                    "baseIndex": 0,
+                    "label": "g_some_flags",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BCA40",
+                            "baseIndex": 0,
+                            "label": "1",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA44",
+                            "baseIndex": 0,
+                            "label": "2",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA48",
+                            "baseIndex": 0,
+                            "label": "3",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA4C",
+                            "baseIndex": 0,
+                            "label": "4",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "some_monkey_quat"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BCA50",
+                            "baseIndex": 0,
+                            "label": "1",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA54",
+                            "baseIndex": 0,
+                            "label": "2",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA58",
+                            "baseIndex": 0,
+                            "label": "3",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA5C",
+                            "baseIndex": 0,
+                            "label": "4",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "some_monkey_quat_2"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BCA60",
+                            "baseIndex": 0,
+                            "label": "1",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA64",
+                            "baseIndex": 0,
+                            "label": "2",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA68",
+                            "baseIndex": 0,
+                            "label": "3",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA6C",
+                            "baseIndex": 0,
+                            "label": "4",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA70",
+                            "baseIndex": 0,
+                            "label": "5",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA74",
+                            "baseIndex": 0,
+                            "label": "6",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA78",
+                            "baseIndex": 0,
+                            "label": "7",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA7C",
+                            "baseIndex": 0,
+                            "label": "8",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA80",
+                            "baseIndex": 0,
+                            "label": "9",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA84",
+                            "baseIndex": 0,
+                            "label": "10",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA88",
+                            "baseIndex": 0,
+                            "label": "11",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA8C",
+                            "baseIndex": 0,
+                            "label": "12",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA90",
+                            "baseIndex": 0,
+                            "label": "13",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA94",
+                            "baseIndex": 0,
+                            "label": "14",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA98",
+                            "baseIndex": 0,
+                            "label": "15",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCA9C",
+                            "baseIndex": 0,
+                            "label": "16",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCAA0",
+                            "baseIndex": 0,
+                            "label": "17",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Weird Unknown Floats"
+                },
+                {
+                    "address": "805BCAA4",
+                    "baseIndex": 0,
+                    "label": "Ape ptr",
+                    "pointerOffsets": [
+                        "0",
+                        "0"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAA8",
+                    "baseIndex": 0,
+                    "label": "some_int",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BCAAC",
+                            "baseIndex": 0,
+                            "label": "ape_facedir x",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCAB0",
+                            "baseIndex": 0,
+                            "label": "ape_facedir y",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCAB4",
+                            "baseIndex": 0,
+                            "label": "ape_facedir z",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCAB8",
+                            "baseIndex": 0,
+                            "label": "ape_facedir thing",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Ape Face Direction"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805BCABC",
+                            "baseIndex": 0,
+                            "label": "normal_x",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCAC0",
+                            "baseIndex": 0,
+                            "label": "normal_y",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805BCAC4",
+                            "baseIndex": 0,
+                            "label": "normal_z",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Last Collision Normal"
+                },
+                {
+                    "address": "805BCAC8",
+                    "baseIndex": 0,
+                    "label": "unkword5",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCACC",
+                    "baseIndex": 0,
+                    "label": "unkword6",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAD0",
+                    "baseIndex": 0,
+                    "label": "unkword7",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAD4",
+                    "baseIndex": 0,
+                    "label": "unkword8",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAD8",
+                    "baseIndex": 0,
+                    "label": "unkword9",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCADC",
+                    "baseIndex": 0,
+                    "label": "unkfloat",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAE0",
+                    "baseIndex": 0,
+                    "label": "unkword10",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAE4",
+                    "baseIndex": 0,
+                    "label": "unkword11",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAE8",
+                    "baseIndex": 0,
+                    "label": "unkword12",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAEC",
+                    "baseIndex": 0,
+                    "label": "physical ball radius",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAF0",
+                    "baseIndex": 0,
+                    "label": "unkword13",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAF4",
+                    "baseIndex": 0,
+                    "label": "unkshort7",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAF6",
+                    "baseIndex": 0,
+                    "label": "color_index",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAF7",
+                    "baseIndex": 0,
+                    "label": "unkbyte",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "805BCAF8",
+                    "baseIndex": 0,
+                    "label": "unkword13",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Ball Struct"
+        },
+        {
+            "address": "805BCAFC",
+            "baseIndex": 0,
+            "label": "some_pos_1 x",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB00",
+            "baseIndex": 0,
+            "label": "some_pos_1 y",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB04",
+            "baseIndex": 0,
+            "label": "some_pos_1 z",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB08",
+            "baseIndex": 0,
+            "label": "unkword15",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB0C",
+            "baseIndex": 0,
+            "label": "unkword16",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB10",
+            "baseIndex": 0,
+            "label": "unkword17",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB14",
+            "baseIndex": 0,
+            "label": "unkword18",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB18",
+            "baseIndex": 0,
+            "label": "some_game_flag",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB19",
+            "baseIndex": 0,
+            "label": "some_model_flag",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB1C",
+            "baseIndex": 0,
+            "label": "some_int",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB20",
+            "baseIndex": 0,
+            "label": "point_below_ball x",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB24",
+            "baseIndex": 0,
+            "label": "point_below_ball y",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB28",
+            "baseIndex": 0,
+            "label": "point_below_ball z",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB2C",
+            "baseIndex": 0,
+            "label": "normal_below_ball x",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB30",
+            "baseIndex": 0,
+            "label": "normal_below_ball y",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "805BCB34",
+            "baseIndex": 0,
+            "label": "normal_below_ball z",
+            "typeIndex": 3,
+            "unsigned": false
+        }
+    ]
+}

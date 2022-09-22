@@ -1,0 +1,86 @@
+{
+  "symbols": {
+    "previous_os_interrupt_mask": { "module_id": 0, "section_id": 0, "offset": 2147483844 },
+    "current_os_interrupt_mask": { "module_id": 0, "section_id": 0, "offset": 2147483848 },
+
+    "memcpy": { "module_id": 0, "section_id": 0, "offset": 2147497108 },
+
+    "sin": { "module_id": 0, "section_id": 0, "offset": 2147968700 },
+    "sinf": { "module_id": 0, "section_id": 0, "offset": 2147969240 },
+    "cos": { "module_id": 0, "section_id": 0, "offset": 2147966928 },
+    "cosf": { "module_id": 0, "section_id": 0, "offset": 2147969276 },
+    "tan": { "module_id": 0, "section_id": 0, "offset": 2147968916 },
+    "tanf": { "module_id": 0, "section_id": 0, "offset": 2147969204 },
+    "srand": { "module_id": 0, "section_id": 0, "offset": 2147950472 },
+    "rand": { "module_id": 0, "section_id": 0, "offset": 2147950480 },
+    "ldexp": { "module_id": 0, "section_id": 0, "offset": 2147967608 },
+    "pow": { "module_id": 0, "section_id": 0, "offset": 2147969100 },
+
+    "OSInit": { "module_id": 0, "section_id": 0, "offset": 2147532812 },
+    "OSReport": { "module_id": 0, "section_id": 0, "offset": 2147542736 },
+    "OSEnableInterrupts": { "module_id": 0, "section_id": 0, "offset": 2147548240 },
+    "OSDisableInterrupts": { "module_id": 0, "section_id": 0, "offset": 2147548220 },
+    "OSRestoreInterrupts": { "module_id": 0, "section_id": 0, "offset": 2147548260 },
+    "OSSetInterruptMask": { "module_id": 0, "section_id": 0, "offset": 2147548460 },
+    "__OSGetInterruptHandler": { "module_id": 0, "section_id": 0, "offset": 2147548324 },
+
+    "GXDrawDone": { "module_id": 0, "section_id": 0, "offset": 2147665516 },
+    "GXSetDrawDone": { "module_id": 0, "section_id": 0, "offset": 2147665364 },
+    "GXCopyDisp": { "module_id": 0, "section_id": 0, "offset": 2147669736 },
+    "GXSetCopyClear": { "module_id": 0, "section_id": 0, "offset": 2147669052 },
+    "GXClearVtxDesc": { "module_id": 0, "section_id": 0, "offset": 2147661284 },
+    "GXSetVtxDesc": { "module_id": 0, "section_id": 0, "offset": 2147658596 },
+    "GXSetVtxAttrFmt": { "module_id": 0, "section_id": 0, "offset": 2147661360 },
+    "GXSetArray": { "module_id": 0, "section_id": 0, "offset": 2147663968 },
+    "GXSetNumChans": { "module_id": 0, "section_id": 0, "offset": 2147672376 },
+    "GXSetNumTexGens": { "module_id": 0, "section_id": 0, "offset": 2147664844 },
+    "GXSetTevOrder": { "module_id": 0, "section_id": 0, "offset": 2147680768 },
+    "GXSetTevOp": { "module_id": 0, "section_id": 0, "offset": 2147678796 },
+    "GXSetTevColorIn": { "module_id": 0, "section_id": 0, "offset": 2147679216 },
+    "GXSetTevColorOp": { "module_id": 0, "section_id": 0, "offset": 2147679476 },
+    "GXSetTevColor": { "module_id": 0, "section_id": 0, "offset": 2147679860 },
+    "GXSetTevAlphaIn": { "module_id": 0, "section_id": 0, "offset": 2147679344 },
+    "GXSetTevAlphaOp": { "module_id": 0, "section_id": 0, "offset": 2147679668 },
+    "GXSetNumTevStages": { "module_id": 0, "section_id": 0, "offset": 2147681244 },
+    "GXSetProjection": { "module_id": 0, "section_id": 0, "offset": 2147687448 },
+    "GXLoadPosMtxImm": { "module_id": 0, "section_id": 0, "offset": 2147688140 },
+    "GXBegin": { "module_id": 0, "section_id": 0, "offset": 2147666732 },
+    "GXSetViewport": { "module_id": 0, "section_id": 0, "offset": 2147688740 },
+    "GXInvalidateVtxCache": { "module_id": 0, "section_id": 0, "offset": 2147664108 },
+    "GXSetZMode": { "module_id": 0, "section_id": 0, "offset": 2147682372 },
+    "GXSetColorUpdate": { "module_id": 0, "section_id": 0, "offset": 2147682244 },
+    "GXSetCullMode": { "module_id": 0, "section_id": 0, "offset": 2147667380 },
+    "GXInitLightAttnK": { "module_id": 0, "section_id": 0, "offset": 2147670560 },
+    "GXInitLightPos": { "module_id": 0, "section_id": 0, "offset": 2147671168 },
+    "GXInitLightColor": { "module_id": 0, "section_id": 0, "offset": 2147671240 },
+    "GXLoadLightObjImm": { "module_id": 0, "section_id": 0, "offset": 2147671328 },
+    "GXLoadPosMtxImm": { "module_id": 0, "section_id": 0, "offset": 2147688140 },
+    "GXWGFifo": { "module_id": 0, "section_id": 0, "offset": 3422584832 },
+
+    "gp_wait": { "module_id": 0, "section_id": 0, "offset": 2147895840 },
+    "video_finish_frame": { "module_id": 0, "section_id": 0, "offset": 2147896056 },
+    "gx_finish_frame": { "module_id": 0, "section_id": 0, "offset": 2147895664 },
+
+    "C_MTXFrustum": { "module_id": 0, "section_id": 0, "offset": 2147578564 },
+    "C_MTXOrtho": { "module_id": 0, "section_id": 0, "offset": 2147578928 },
+    "C_MTXPerspective": { "module_id": 0, "section_id": 0, "offset": 2147578720 },
+    "C_MTXLookAt": { "module_id": 0, "section_id": 0, "offset": 2147578168 },
+    "PSMTXConcat": { "module_id": 0, "section_id": 0, "offset": 2147577676 },
+
+    "VIInit": { "module_id": 0, "section_id": 0, "offset": 2147599312 },
+    "VIWaitForRetrace": { "module_id": 0, "section_id": 0, "offset": 2147600456 },
+    "VIFlush": { "module_id": 0, "section_id": 0, "offset": 2147603628 },
+    "VISetBlack": { "module_id": 0, "section_id": 0, "offset": 2147604020 },
+    "VISetNextFrameBuffer": { "module_id": 0, "section_id": 0, "offset": 2147603912 },
+    "VIConfigure": { "module_id": 0, "section_id": 0, "offset": 2147601680 },
+
+    "DVDInit": { "module_id": 0, "section_id": 0, "offset": 2147586328 },
+
+    "PADInit": { "module_id": 0, "section_id": 0, "offset": 2147607252 },
+
+    "extmath_set_a_mtx_rotate_z": { "module_id": 0, "section_id": 0, "offset": 2147886456 },
+
+    "graphics_info": { "module_id": 0, "section_id": 0, "offset": 2149159704 },
+    "render_mode": { "module_id": 0, "section_id": 0, "offset": 2148608084 }
+  }
+}

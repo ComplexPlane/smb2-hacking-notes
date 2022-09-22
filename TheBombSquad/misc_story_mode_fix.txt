@@ -1,0 +1,97 @@
+This is super unformatted
+
+The following instructions check for input at the pause screen in Story Mode:
+		8029c1d0 - debug stuff?
+		80009ad0 - not related to a button?
+		80299088 - calculates frames since last input change
+		80299490 - performs some operation with g_input)_bitmask and buttons_input_bitfield?
+		80299528 - ''
+		802b05c0 - idk?
+		80273410 - Is not called after pressing 'stage select'
+		80273564 - ''
+		80283388
+		802ad5f0
+		802ad644
+		802ad698
+		802ad6ec
+
+Instructions at 80273410/80273564 look at g_input_bitmask
+This is function 0x80273338 in GC memory. This function is only called when the pause menu is visible.
+
+Instruction 0x80273aa0 fades out the BGM after selecting 'Stage Select'.
+
+Addresses which stoe the current volume of the track playing (not bgm for some reason, 0-100)
+80562888, 80562889, 8095a930 (debug)
+
+Address which stores the current volume of the bgm as a float:
+80562918
+
+Instruction which potentially lowers volume of bgm when paused:
+802a3090
+
+Instruction which *actually* lowers the volume of the bgm when paused:
+802a32a8
+
+So, the fix for story mode music is:
+
+nop 0x80273aa0
+
+inject at: 0x80273aa0
+nop								-	no fade out after pressing 'stage select'
+
+inject at: 0x802a5c34
+
+addis r3, r2, +0x3a (3c62003a)	-	load the top half of the main_mode_1 address
+ori r3, r3, 0xDC34  (6063dc34)	-	load the bottom half of main_mode_1 address
+lwz r3, 0(r3)		(80630000)	-	load the value of main_mode_1
+cmpwi r3, 0x30      (28030030)	-	compare to 0x30
+blt nomatch						-	no match if mode is less than 30
+cmpwi r3, 0x5b		(2803005b)	-	compare to 0x5b (retry screen in story mode)
+beq match						-	match - don't restart the music
+cmpwi r3, 0x3b		(2803003b)	-	compare to 0x3b
+bgt nomatch						-	no match if mode is above 3b
+match:							
+li r3, 1			(38600001)	-	load 1 to looping state (don't restart music)
+b end
+nomatch:
+li r3, 0			(38600000)	-	default value - change the music
+end:
+
+
+also: we'll want a link to 802a5e94 to prevent the hurry up music from carrying over
+801a1400 is r2
+AND 8054dc34 with 0x30
+if it is 30:
+replace 802a5c34 with li r3, 1
+if not:
+replace 802a5c34 with li r3, 0
+
+removing 'hurry up' music
+
+nop 808f509c
+C28F509C 00000001
+60000000 00000000
+nop 808f50a4
+C28F50A4 00000001
+60000000 00000000
+
+main_game:
+
+nop 804cec84
+addis r3, r2, +0x3a
+ori r3, r3, 0xdc40
+lwz r3, 0(r3)
+cmpwi r3, 0x78
+bne none
+li r3, 1
+b end
+none:
+li r3, 0
+end:
+
+c28f6cf4 00000005
+3c62003a 6063dc40
+80630000 2c030078
+4082000c 38600001
+48000008 38600000
+60000000 00000000

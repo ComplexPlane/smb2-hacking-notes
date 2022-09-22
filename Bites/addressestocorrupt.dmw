@@ -1,0 +1,297 @@
+{
+    "watchList": [
+        {
+            "groupEntries": [
+                {
+                    "address": "803E4D38",
+                    "baseIndex": 0,
+                    "label": "level tilt interpolation rate",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803E4D58",
+                    "baseIndex": 0,
+                    "label": "level tilt interp 2",
+                    "typeIndex": 4,
+                    "unsigned": false
+                },
+                {
+                    "address": "803E53DC",
+                    "baseIndex": 0,
+                    "label": "bg animation timescale",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803E4D10",
+                    "baseIndex": 0,
+                    "label": "goal post something",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803E4DD8",
+                    "baseIndex": 0,
+                    "label": "stage animrate post dropin (fps/val)",
+                    "typeIndex": 4,
+                    "unsigned": false
+                },
+                {
+                    "address": "803E4DC8",
+                    "baseIndex": 0,
+                    "label": "stage animrate b4 dropin (fps / val)",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803E4DC4",
+                    "baseIndex": 0,
+                    "label": "No label",
+                    "length": 4,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "804724BC",
+                    "baseIndex": 0,
+                    "label": "Accel",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803E487C",
+                    "baseIndex": 0,
+                    "label": "Friction",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803E4D60",
+                    "baseIndex": 0,
+                    "label": "something with input?",
+                    "typeIndex": 4,
+                    "unsigned": true
+                },
+                {
+                    "address": "803E8624",
+                    "baseIndex": 0,
+                    "label": "timer ms divisor",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "803E8720",
+                    "baseIndex": 0,
+                    "label": "minimap zoom",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "8047BFB4",
+                    "baseIndex": 0,
+                    "label": "banana scale",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8047BFC8",
+                    "baseIndex": 0,
+                    "label": "banana bunch scale",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80199760",
+                    "baseIndex": 3,
+                    "label": "change this and music gets fuckt?",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "80199480",
+                    "baseIndex": 0,
+                    "label": "something to do with deadzones",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80199488",
+                    "baseIndex": 0,
+                    "label": "input multiplier",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80494474",
+                    "baseIndex": 0,
+                    "label": "minimap size",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "80494476",
+                    "baseIndex": 0,
+                    "label": "minimap rotation",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "80494478",
+                    "baseIndex": 0,
+                    "label": "minimap rotation rate",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "801997A8",
+                    "baseIndex": 0,
+                    "label": "sfx playback rate (lower = slower)",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803DE6EC",
+                    "baseIndex": 0,
+                    "label": "something goal? trigger height?",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803DE6F0",
+                    "baseIndex": 0,
+                    "label": "goal trigger scale",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "cool"
+        },
+        {
+            "address": "803DE69C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE6A0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE6B4",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE6B8",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE6C0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE6C8",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE6CC",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE6D0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE6E4",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE6F4",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE6F8",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE708",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE710",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE714",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE718",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE71C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803DE720",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "80441AC0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        }
+    ]
+}

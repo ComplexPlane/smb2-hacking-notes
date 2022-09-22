@@ -1,0 +1,342 @@
+{
+    "watchList": [
+        {
+            "groupEntries": [
+                {
+                    "address": "80206BFC",
+                    "baseIndex": 0,
+                    "label": "max level tilt degrees",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "802F36B8",
+                    "baseIndex": 0,
+                    "label": "max level tilt degrees pointer",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80206BF8",
+                    "baseIndex": 0,
+                    "label": "ball control state",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "80206BF0",
+                    "baseIndex": 0,
+                    "label": "z tilt",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "80206BF2",
+                    "baseIndex": 0,
+                    "label": "x tilt",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "80206BF4",
+                    "baseIndex": 0,
+                    "label": "tilt clones? not sure",
+                    "length": 4,
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80206C00",
+                    "baseIndex": 0,
+                    "label": "something with level tilt",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80206C04",
+                    "baseIndex": 0,
+                    "label": "something with level tilt 2",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80206C08",
+                    "baseIndex": 0,
+                    "label": "something with level tilt 3",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80206BE0",
+                    "baseIndex": 0,
+                    "label": "off-balance timer",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "ball stuff"
+        },
+        {
+            "groupEntries": [
+            ],
+            "groupName": "goal stuff"
+        },
+        {
+            "address": "80136314",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "8013637C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "801D4098",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "802F42B4",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "802F4458",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "802F4564",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "802F3BC4",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "802F48F0",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F48F4",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F48F8",
+            "baseIndex": 0,
+            "label": "something with the ribbon",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F48FC",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "802F48E8",
+            "baseIndex": 0,
+            "label": "goaltape tension..?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F48EC",
+            "baseIndex": 0,
+            "label": "party ball height'",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4900",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4904",
+            "baseIndex": 0,
+            "label": "goaltape right connection something",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4908",
+            "baseIndex": 0,
+            "label": "goaltape something length",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F490C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4910",
+            "baseIndex": 0,
+            "label": "goaltape x offset ?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4918",
+            "baseIndex": 0,
+            "label": "tape 'goal' text UV y max?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F491C",
+            "baseIndex": 0,
+            "label": "tape stretchiness",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4920",
+            "baseIndex": 0,
+            "label": "tape disappears if this isnt 43300000",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4924",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4928",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4930",
+            "baseIndex": 0,
+            "label": "tape gravity",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4934",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "802F4938",
+            "baseIndex": 0,
+            "label": "goaltape shape retention",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F493C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4940",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4948",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4950",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4954",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "802F4958",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4960",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F4964",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        },
+        {
+            "address": "802F4968",
+            "baseIndex": 0,
+            "label": "tape thing",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "802F496C",
+            "baseIndex": 0,
+            "label": "No label",
+            "length": 4,
+            "typeIndex": 6,
+            "unsigned": false
+        }
+    ]
+}
